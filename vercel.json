@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "bot.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "bot.js"
+    }
+  ]
+}
+// Compare this snippet from bot.js:
+// const { Telegraf } = require('telegraf');
