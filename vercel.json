@@ -13,5 +13,3 @@
     }
   ]
 }
-// Compare this snippet from bot.js:
-// const { Telegraf } = require('telegraf');
